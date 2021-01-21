@@ -10,7 +10,7 @@ echo ""
 echo "Updating playbook..."
 echo "===================="
 cd /c/antora/modelx-no/modelx-no-playbook
-git checkout m
+git checkout main
 git add .
 git commit -m "Dev"
 git push origin main
