@@ -13,7 +13,7 @@ content:
 # unit modules
 #=========
   
-  - url: ./../components/
+  - url: ./../components/unit-ra.git
     start_path: unit-ra
     
     

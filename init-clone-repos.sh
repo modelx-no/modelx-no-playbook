@@ -6,9 +6,6 @@ mkdir /c/antora/modelx-no
 cd /c/antora/modelx-no
 git clone https://github.com/modelx-no/modelx-no-playbook
 #git clone https://github.com/modelx-no/antora-ui
-mkdir /c/antora/modelx-no/components
-cd /c/antora/modelx-no/components
-echo ""
 echo "Cloning unit-ra modules..."
 echo "==========================="
 mkdir /c/antora/modelx-no/components
