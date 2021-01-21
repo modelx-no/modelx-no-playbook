@@ -4,7 +4,7 @@ site:
 
   #url: https://antora.gitlab.io/demo/docs-site
   url: https://modelx-no.github.io/
-  start_page: unit-ra::index.adoc
+  start_page: unit-ra:ROOT:index.adoc
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
