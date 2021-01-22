@@ -14,7 +14,7 @@ content:
 #=========
   
   #- url: https://github.com/modelx-no/unit-ra.git
-  - url: ././../components/unit-ra
+  - url: ./../components/unit-ra
     start_path: unit-ra
     
     
