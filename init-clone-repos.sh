@@ -2,6 +2,15 @@
 cd /c
 mkdir /c/antora
 cd /c/antora
+
+
+mkdir /c/antora/antorademo
+mkdir /c/antora/antorademo/output
+cd /c/antora/antorademo
+git clone https://gitlab.com/antora/demo/docs-site
+git clone https://gitlab.com/antora/demo/demo-component-a
+git clone https://gitlab.com/antora/demo/demo-component-b
+
 mkdir /c/antora/modelx-no
 cd /c/antora/modelx-no
 git clone https://github.com/modelx-no/modelx-no-playbook
