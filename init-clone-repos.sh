@@ -4,36 +4,38 @@ mkdir /c/antora
 cd /c/antora
 
 
-#mkdir /c/antora/antoradem7o
-#mkdir /c/antora/antorademo/output
-#cd /c/antora/antorademo
-#git clone https://gitlab.com/antora/demo/docs-site
-#git clone https://gitlab.com/antora/demo/demo-component-a
-#git clone https://gitlab.com/antora/demo/demo-component-b
-
 mkdir /c/antora/modelx-no
 cd /c/antora/modelx-no
+
+echo ""
+echo ""
+echo "Cloning playbook..."
+echo "==================="
 git clone https://github.com/modelx-no/modelx-no-playbook
+
+
+echo ""
+echo ""
+echo "Cloning antora-ui (temporary solution)"
+echo "======================================"
+git clone https://gitlab.com/digdir/antora-ui
 #git clone https://github.com/modelx-no/antora-ui
-echo "Cloning unit ..."
-echo "==========================="
+
+
+
+echo ""
+echo ""
+echo "Cloning components and modules..."
+echo "================================="
 mkdir /c/antora/modelx-no/components
-mkdir /c/antora/modelx-no/components/unit-components
-cd /c/antora/modelx-no/components/unit-components
-
-cd /c/antora/modelx
-git clone https://gitlab.com/modelx/playbook
-
-cd /c/antora/modelx/unit
-git clone https://gitlab.com/modelx/unit/ra-datadeling
-
-
+mkdir /c/antora/modelx-no/components/unit-ra
+cd /c/antora/modelx-no/components/unit-ra
 
 
 echo ""
 echo ""
 echo "Cloning output repos"
-echo "========================="
+echo "===================="
 mkdir /c/antora/modelx-no/output/
 mkdir /c/antora/modelx-no/output/github-pages/
 cd /c/antora/modelx-no/output/github-pages/
