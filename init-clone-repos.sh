@@ -20,7 +20,16 @@ echo "==========================="
 mkdir /c/antora/modelx-no/components
 mkdir /c/antora/modelx-no/components/unit-components
 cd /c/antora/modelx-no/components/unit-components
-git clone https://github.com/modelx-no/unit-ra
+
+cd /c/antora/modelx
+git clone https://gitlab.com/modelx/playbook
+
+cd /c/antora/modelx/unit
+git clone https://gitlab.com/modelx/unit/ra-datadeling
+
+
+
+
 echo ""
 echo ""
 echo "Cloning output repos"
