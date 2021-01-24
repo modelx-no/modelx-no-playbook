@@ -20,9 +20,13 @@ echo "Running Antora..."
 antora --fetch antora-playbook.yml --attribute lang=no 	--attribute wysiwig_editing=0 
 echo ""
 #echo "Updating site..."
+echo "================="
 cd /c/antora/modelx-no/output/github-pages/modelx-no.github.io
+#Get rid of CRLF warning,ref. http://vcloud-lab.com/entries/devops/resolved-git-warning-lf-will-be-replaced-by-crlf-in-file
 git config core.autocrlf true
+#Make it work with github:
 touch .nojekyll
+#
 git checkout main
 git add .
 git commit -m "Dev"
