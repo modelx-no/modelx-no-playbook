@@ -1,7 +1,7 @@
 #!/bin/bash
 #Get rid of CRLF warning,ref. http://vcloud-lab.com/entries/devops/resolved-git-warning-lf-will-be-replaced-by-crlf-in-file
 #git config core.autocrlf true
-echo "Updating component architecture-repository..."
+echo "Updating component unit-ra..."
 echo "=========================="
 cd /c/antora/modelx-no/components/unit-ra
 git checkout main
