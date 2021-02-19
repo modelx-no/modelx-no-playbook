@@ -1,18 +1,19 @@
 site:
-  title: ModelX - fra modellutveksling til arkitektursamarbeid
+  title: UNIT refansearkitekturer
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://modelx.gitlab.io/
-  start_page: modelx::index.adoc
+  url: https://modelx-no.github.io/unit-ra
+  start_page: unit-ra::index.adoc
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
  
 #
-# modelx modules
+# unit modules
 #=========
   
-  - url: https://gitlab.com/modelx/wiki/components/common-doc/modelx-common-doc.git
-    branches: master
+  #- url: https://github.com/modelx-no/unit-ra.git
+  - url: ./../components/unit-ra
+    branches: main
     start_path: docs
     
     
@@ -23,7 +24,7 @@ ui:
     snapshot: true
 
 output:
-    dir: ././../output/gitlab-pages/modelx.gitlab.io
+    dir: ././../output/github-pages/modelx-no.github.io/unit-ra
 asciidoc:
   attributes:
     lang: no@
