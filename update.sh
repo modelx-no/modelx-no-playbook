@@ -24,11 +24,11 @@ antora --fetch antora-playbook.yml --attribute lang=no 	--attribute wysiwig_edit
 echo ""
 echo "Updating site..."
 echo "================"
-cd C:\antora\modelx-no\output\github-pages\ref-a-github.io
+cd /c/antora/modelx-no/output/github-pages/ref-a-github.io
 #Make it work with github:
 touch .nojekyll
 #
-#git checkout main
-#git add .
-#git commit -m "Dev"
-#git push origin main
+git checkout main
+git add .
+git commit -m "Dev"
+git push origin main
