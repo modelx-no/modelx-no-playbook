@@ -1,7 +1,7 @@
 site:
   title: UNIT refansearkitekturer
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://modelx-no.github.io/unit-ra
+  url: https://ref-a.github.io/
   start_page: unit-ra::index.adoc
 content:
   sources:
@@ -24,7 +24,7 @@ ui:
     snapshot: true
 
 output:
-    dir: ././../output/github-pages/modelx-no.github.io/unit-ra
+    dir: ././../output/github-pages/ref-a.github.io
 asciidoc:
   attributes:
     lang: no@
