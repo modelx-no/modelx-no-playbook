@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 #Get rid of CRLF warning,ref. http://vcloud-lab.com/entries/devops/resolved-git-warning-lf-will-be-replaced-by-crlf-in-file
 #git config core.autocrlf true
 echo "Updating component unit-ra..."
@@ -20,7 +20,7 @@ echo ""
 echo ""
 echo "Running Antora..."
 echo "================="
-antora --fetch antora-playbook.yml --attribute lang=no 	--attribute wysiwig_editing=0  --attribute toc=!
+antora --fetch antora-playbook.yml --attribute lang=no 	--attribute wysiwig_editing=0  --attribute toc=! --attribute sectnums=!
 echo ""
 echo "Updating site..."
 echo "================"
