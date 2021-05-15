@@ -20,7 +20,8 @@ echo ""
 echo ""
 echo "Running Antora..."
 echo "================="
-antora --fetch antora-playbook.yml --attribute lang=no 	--attribute wysiwig_editing=0  --attribute toc=! --attribute sectnums=!
+#antora --fetch antora-playbook.yml --attribute lang=no 	--attribute wysiwig_editing=0  --attribute toc=! --attribute sectnums=!
+antora --fetch antora-playbook.yml --attribute lang=no 	--attribute wysiwig_editing=0  --attribute toc=!
 echo ""
 echo "Updating site..."
 echo "================"
