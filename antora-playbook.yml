@@ -11,8 +11,8 @@ content:
 # unit modules
 #=========
   
-  #- url: https://github.com/modelx-no/unit-ra.git
-  - url: ./../components/unit-ra
+  - url: https://github.com/modelx-no/unit-ra.git
+  # url: ./../components/unit-ra
     branches: main
     start_path: docs
     
